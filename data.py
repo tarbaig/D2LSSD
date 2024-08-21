@@ -11,7 +11,7 @@ import torchvision
 
 DATA_HUB = {}
 
-DATA_URL = "http://d2l-data.s3-accelerate.amazonaws.com/banana-detection.zip"
+DATA_URL = "http://d2l-data.s3-accelerate.amazonaws.com/"
 DATA_HUB["banana-detection"] = (
     DATA_URL + "banana-detection.zip",
     "5de26c8fce5ccdea9f91267273464dc968d20d72",
